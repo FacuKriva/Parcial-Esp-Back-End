@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: Gateway-Service
+  cloud:
+    config:
+      discovery:
+        enabled: true
+        service-id: Config-Service
+  profiles:
+    active: dev
