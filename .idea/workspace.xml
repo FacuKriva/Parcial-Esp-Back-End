@@ -1,11 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="d9b114b6-aed1-4f4d-bf31-ebf20574aab8" name="Changes" comment=".">
-      <change afterPath="$PROJECT_DIR$/Spring-Cloud-Config/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application.yml" afterDir="false" />
+    <list default="true" id="d9b114b6-aed1-4f4d-bf31-ebf20574aab8" name="Changes" comment="Rehice de cero los 'pom.xml' con spring initializr.">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Config-Service/src/main/resources/config-service.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gateway-Service/src/main/resources/gateway-service.yml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/catalog-service-parcial/src/main/java/com/dh/catalogservice/api/service/ICatalogService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gateway-Service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Gateway-Service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/catalog-service-parcial/src/main/java/com/dh/catalogservice/config/CustomLoadBalancerConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Config-Service/src/main/java/com/example/ConfigService/ConfigServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/Config-Service/src/main/java/com/example/ConfigService/ConfigServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Config-Service/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Config-Service/src/test/java/com/example/ConfigService/ConfigServiceApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/Config-Service/src/test/java/com/example/ConfigService/ConfigServiceApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eureka-Service/src/main/java/com/example/EurekaService/EurekaServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/Eureka-Service/src/main/java/com/example/EurekaService/EurekaServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eureka-Service/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eureka-Service/src/test/java/com/example/EurekaService/EurekaServiceApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/Eureka-Service/src/test/java/com/example/EurekaService/EurekaServiceApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gateway-Service/src/main/java/com/example/GatewayService/GatewayServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gateway-Service/src/main/java/com/example/GatewayService/GatewayServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gateway-Service/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/Gateway-Service/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gateway-Service/src/test/java/com/example/GatewayService/GatewayServiceApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gateway-Service/src/test/java/com/example/GatewayService/GatewayServiceApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-Cloud-Config/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-Cloud-Config/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/Eureka-Service/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-Cloud-Config/catalog-service-dev.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-Cloud-Config/gateway-service-dev.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-Cloud-Config/movie-service-dev.yml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/catalog-service-parcial/src/main/java/com/dh/catalogservice/CatalogServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/catalog-service-parcial/src/main/java/com/dh/catalogservice/CatalogServiceApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/catalog-service-parcial/src/main/java/com/dh/catalogservice/api/controller/CatalogController.java" beforeDir="false" afterPath="$PROJECT_DIR$/catalog-service-parcial/src/main/java/com/dh/catalogservice/api/controller/CatalogController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/catalog-service-parcial/src/main/java/com/dh/catalogservice/api/service/CatalogService.java" beforeDir="false" />
@@ -14,17 +37,47 @@
       <change beforePath="$PROJECT_DIR$/catalog-service-parcial/src/main/java/com/dh/catalogservice/domain/model/dto/CatalogWS.java" beforeDir="false" afterPath="$PROJECT_DIR$/catalog-service-parcial/src/main/java/com/dh/catalogservice/domain/model/dto/CatalogWS.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/catalog-service-parcial/src/main/java/com/dh/catalogservice/domain/model/dto/MovieWS.java" beforeDir="false" afterPath="$PROJECT_DIR$/catalog-service-parcial/src/main/java/com/dh/catalogservice/domain/model/dto/MovieWS.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/catalog-service-parcial/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog-service-parcial/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/catalog-service-parcial/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie-service-parcial/src/main/java/com/dh/movieservice/MovieServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/movie-service-parcial/src/main/java/com/dh/movieservice/MovieServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie-service-parcial/src/main/java/com/dh/movieservice/api/controller/MovieController.java" beforeDir="false" afterPath="$PROJECT_DIR$/movie-service-parcial/src/main/java/com/dh/movieservice/api/controller/MovieController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie-service-parcial/src/main/java/com/dh/movieservice/api/service/impl/MovieServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/movie-service-parcial/src/main/java/com/dh/movieservice/api/service/impl/MovieServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie-service-parcial/src/main/java/com/dh/movieservice/domain/model/Movie.java" beforeDir="false" afterPath="$PROJECT_DIR$/movie-service-parcial/src/main/java/com/dh/movieservice/domain/model/Movie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie-service-parcial/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie-service-parcial/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/movie-service-parcial/src/main/resources/bootstrap.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GithubDefaultAccount">
     <option name="defaultAccountId" value="0acef4c1-61d4-4ec2-9202-e627811820b4" />
+  </component>
+  <component name="JpbToolWindowState">
+    <option name="myId2FirstActivated">
+      <map>
+        <entry key="com.haulmont.jpb.jpaInspector" value="true" />
+        <entry key="com.haulmont.jpb.jpaPalette" value="true" />
+        <entry key="com.haulmont.jpb.jpaStructure" value="true" />
+      </map>
+    </option>
+    <option name="myId2Visible">
+      <map>
+        <entry key="com.haulmont.jpb.jpaInspector" value="false" />
+        <entry key="com.haulmont.jpb.jpaPalette" value="false" />
+        <entry key="com.haulmont.jpb.jpaStructure" value="false" />
+      </map>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -34,14 +87,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/nevad/Documents/CTD/Segundo-Track/PB/EBE/Clase12S/Krivanek, Facundo-C1-Primer-Parcial&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "jdk.selected.JAVA_MODULE": "corretto-18",
+    "last_opened_file_path": "C:/Users/nevad/Documents/CTD/Segundo-Track/PB/EBE/Clase12S/Otros/movies-microservices-main",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "project.propVCSSupport.Mappings"
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\nevad\Documents\CTD\Segundo-Track\PB\EBE\Clase12S\Krivanek, Facundo-C1-Primer-Parcial\Eureka-Service\src\main\resources" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -58,7 +122,28 @@
       <option name="project" value="LOCAL" />
       <updated>1661825804625</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary=".">
+      <created>1661826224603</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1661826224603</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Faltaba agregar los yaml">
+      <created>1661826266073</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1661826266073</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Rehice de cero los 'pom.xml' con spring initializr.">
+      <created>1661838084147</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1661838084147</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -74,6 +159,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="." />
-    <option name="LAST_COMMIT_MESSAGE" value="." />
+    <MESSAGE value="Faltaba agregar los yaml" />
+    <MESSAGE value="Rehice de cero los 'pom.xml' con spring initializr." />
+    <option name="LAST_COMMIT_MESSAGE" value="Rehice de cero los 'pom.xml' con spring initializr." />
   </component>
 </project>
