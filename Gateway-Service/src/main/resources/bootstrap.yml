@@ -1,10 +1,11 @@
 spring:
   application:
-    name: Gateway-Service
+    name: gateway-service
   cloud:
     config:
+      enabled: false
       discovery:
         enabled: true
-        service-id: Config-Service
+        service-id: config-service
   profiles:
     active: dev
