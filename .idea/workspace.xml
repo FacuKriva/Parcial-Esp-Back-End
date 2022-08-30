@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d9b114b6-aed1-4f4d-bf31-ebf20574aab8" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Spring-Cloud-Config/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-Cloud-Config/.idea/intellij-javadocs-4.0.1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/catalog-service-parcial/src/main/java/com/dh/catalogservice/api/service/ICatalogService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gateway-Service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Gateway-Service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog-service-parcial/src/main/java/com/dh/catalogservice/CatalogServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/catalog-service-parcial/src/main/java/com/dh/catalogservice/CatalogServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog-service-parcial/src/main/java/com/dh/catalogservice/api/controller/CatalogController.java" beforeDir="false" afterPath="$PROJECT_DIR$/catalog-service-parcial/src/main/java/com/dh/catalogservice/api/controller/CatalogController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog-service-parcial/src/main/java/com/dh/catalogservice/api/service/CatalogService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog-service-parcial/src/main/java/com/dh/catalogservice/api/service/MovieFeignClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/catalog-service-parcial/src/main/java/com/dh/catalogservice/api/service/MovieFeignClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog-service-parcial/src/main/java/com/dh/catalogservice/api/service/impl/CatalogServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/catalog-service-parcial/src/main/java/com/dh/catalogservice/api/service/impl/CatalogServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog-service-parcial/src/main/java/com/dh/catalogservice/domain/model/dto/CatalogWS.java" beforeDir="false" afterPath="$PROJECT_DIR$/catalog-service-parcial/src/main/java/com/dh/catalogservice/domain/model/dto/CatalogWS.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog-service-parcial/src/main/java/com/dh/catalogservice/domain/model/dto/MovieWS.java" beforeDir="false" afterPath="$PROJECT_DIR$/catalog-service-parcial/src/main/java/com/dh/catalogservice/domain/model/dto/MovieWS.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog-service-parcial/src/main/resources/application.yml" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="0acef4c1-61d4-4ec2-9202-e627811820b4" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2E3YCu0nSt3YNwLdHuwGcTQTxxk" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/nevad/Documents/CTD/Segundo-Track/PB/EBE/Clase12S/Krivanek, Facundo-C1-Primer-Parcial",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d9b114b6-aed1-4f4d-bf31-ebf20574aab8" name="Changes" comment="" />
+      <created>1661825610474</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1661825610474</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
