@@ -10,19 +10,17 @@ import java.util.List;
 
 @Service
 public class MovieServiceImpl implements MovieService {
-	private MovieRepository movieRepository;
+	private final MovieRepository movieRepository;
 
 	@Autowired
 	public MovieServiceImpl(MovieRepository movieRepository) {
 		this.movieRepository = movieRepository;
 	}
 
-	@Override
 	public List<Movie> getListByGenre(String genre) {
 		return movieRepository.findAllByGenre(genre);
 	}
 
-	@Override
 	public Movie save(Movie movie) {
 		return movieRepository.save(movie);
 	}

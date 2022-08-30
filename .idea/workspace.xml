@@ -4,30 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d9b114b6-aed1-4f4d-bf31-ebf20574aab8" name="Changes" comment="Reemplazan a los archivos borrados de la carpeta borrada 'Spring-Cloud-Config'">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/catalog-service-parcial/src/main/java/com/dh/catalogservice/api/service/ICatalogService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="d9b114b6-aed1-4f4d-bf31-ebf20574aab8" name="Changes" comment="Retoques">
       <change beforePath="$PROJECT_DIR$/Config-Service/src/main/java/com/example/ConfigService/ConfigServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/Config-Service/src/main/java/com/example/ConfigService/ConfigServiceApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Config-Service/src/test/java/com/example/ConfigService/ConfigServiceApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/Config-Service/src/test/java/com/example/ConfigService/ConfigServiceApplicationTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Eureka-Service/src/main/java/com/example/EurekaService/EurekaServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/Eureka-Service/src/main/java/com/example/EurekaService/EurekaServiceApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Eureka-Service/src/test/java/com/example/EurekaService/EurekaServiceApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/Eureka-Service/src/test/java/com/example/EurekaService/EurekaServiceApplicationTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Gateway-Service/src/main/java/com/example/GatewayService/GatewayServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gateway-Service/src/main/java/com/example/GatewayService/GatewayServiceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gateway-Service/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/Gateway-Service/src/main/resources/bootstrap.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Gateway-Service/src/test/java/com/example/GatewayService/GatewayServiceApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gateway-Service/src/test/java/com/example/GatewayService/GatewayServiceApplicationTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/catalog-service-parcial/src/main/java/com/dh/catalogservice/CatalogServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/catalog-service-parcial/src/main/java/com/dh/catalogservice/CatalogServiceApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/catalog-service-parcial/src/main/java/com/dh/catalogservice/api/controller/CatalogController.java" beforeDir="false" afterPath="$PROJECT_DIR$/catalog-service-parcial/src/main/java/com/dh/catalogservice/api/controller/CatalogController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog-service-parcial/src/main/java/com/dh/catalogservice/api/service/MovieFeignClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/catalog-service-parcial/src/main/java/com/dh/catalogservice/api/service/MovieFeignClient.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/catalog-service-parcial/src/main/java/com/dh/catalogservice/api/service/impl/CatalogServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/catalog-service-parcial/src/main/java/com/dh/catalogservice/api/service/impl/CatalogServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog-service-parcial/src/main/java/com/dh/catalogservice/domain/model/dto/CatalogWS.java" beforeDir="false" afterPath="$PROJECT_DIR$/catalog-service-parcial/src/main/java/com/dh/catalogservice/domain/model/dto/CatalogWS.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog-service-parcial/src/main/java/com/dh/catalogservice/domain/model/dto/MovieWS.java" beforeDir="false" afterPath="$PROJECT_DIR$/catalog-service-parcial/src/main/java/com/dh/catalogservice/domain/model/dto/MovieWS.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog-service-parcial/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/catalog-service-parcial/src/main/resources/bootstrap.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/movie-service-parcial/src/main/java/com/dh/movieservice/MovieServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/movie-service-parcial/src/main/java/com/dh/movieservice/MovieServiceApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/movie-service-parcial/src/main/java/com/dh/movieservice/api/controller/MovieController.java" beforeDir="false" afterPath="$PROJECT_DIR$/movie-service-parcial/src/main/java/com/dh/movieservice/api/controller/MovieController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/movie-service-parcial/src/main/java/com/dh/movieservice/api/service/impl/MovieServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/movie-service-parcial/src/main/java/com/dh/movieservice/api/service/impl/MovieServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/movie-service-parcial/src/main/java/com/dh/movieservice/domain/model/Movie.java" beforeDir="false" afterPath="$PROJECT_DIR$/movie-service-parcial/src/main/java/com/dh/movieservice/domain/model/Movie.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie-service-parcial/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/movie-service-parcial/src/main/resources/bootstrap.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -155,7 +145,42 @@
       <option name="project" value="LOCAL" />
       <updated>1661838562495</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="..">
+      <created>1661839079973</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1661839079973</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Se modifican los puertos">
+      <created>1661839119894</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1661839119894</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Se completan los model DTO's y se agrega la interfaz de 'ICatalogService.java'">
+      <created>1661839314753</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1661839314753</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Se completan los model DTO's y se agrega la interfaz de 'ICatalogService.java'">
+      <created>1661839344012</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1661839344012</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Se agrega el LoadBalancer">
+      <created>1661839438468</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1661839438468</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -175,6 +200,11 @@
     <MESSAGE value="." />
     <MESSAGE value="Archivos Borrados" />
     <MESSAGE value="Reemplazan a los archivos borrados de la carpeta borrada 'Spring-Cloud-Config'" />
-    <option name="LAST_COMMIT_MESSAGE" value="Reemplazan a los archivos borrados de la carpeta borrada 'Spring-Cloud-Config'" />
+    <MESSAGE value=".." />
+    <MESSAGE value="Se modifican los puertos" />
+    <MESSAGE value="Se completan los model DTO's y se agrega la interfaz de 'ICatalogService.java'" />
+    <MESSAGE value="Se agrega el LoadBalancer" />
+    <MESSAGE value="Retoques" />
+    <option name="LAST_COMMIT_MESSAGE" value="Retoques" />
   </component>
 </project>

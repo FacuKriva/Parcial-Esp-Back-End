@@ -1,38 +1,40 @@
 package com.dh.movieservice.domain.model;
 
-import lombok.*;
 import org.hibernate.Hibernate;
-
 import javax.persistence.*;
 import java.util.Objects;
 
-@Getter
-@Setter
-@ToString
 @Entity
-@Table(name = "movies")
+@Table( name = "movies" )
 public class Movie {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Integer id;
+
+	@Column( name = "movie_name" )
 	private String name;
+
+	@Column ( name = "genre" )
 	private String genre;
+
+	@Column ( name = "urlStream" )
 	private String urlStream;
 
 	public Movie(){
+		// No-args constructor
 	}
 
 	public Integer getId() { return id; }
 
 	public void setId(Integer id) { this.id = id; }
 
-	public String getName() { return name; }
+	public String getMovieName() { return name; }
 
-	public void setName(String name) { this.name = name; }
+	public void setMovieName(String name) { this.name = name; }
 
-	public String getGenre() { return genre; }
+	public String getMovieGenre() { return genre; }
 
-	public void setGenre(String genre) { this.genre = genre; }
+	public void setMovieGenre(String genre) { this.genre = genre; }
 
 	public String getUrlStream() { return urlStream; }
 

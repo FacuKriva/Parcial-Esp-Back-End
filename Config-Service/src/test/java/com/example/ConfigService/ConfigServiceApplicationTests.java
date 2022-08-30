@@ -5,8 +5,6 @@ import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
 class ConfigServiceApplicationTests {
-	ConfigServiceApplicationTests(){
-	}
 
 	@Test
 	void contextLoads() {
