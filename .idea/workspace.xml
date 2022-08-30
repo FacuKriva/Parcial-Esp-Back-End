@@ -4,45 +4,29 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d9b114b6-aed1-4f4d-bf31-ebf20574aab8" name="Changes" comment="Rehice de cero los 'pom.xml' con spring initializr.">
+    <list default="true" id="d9b114b6-aed1-4f4d-bf31-ebf20574aab8" name="Changes" comment="Reemplazan a los archivos borrados de la carpeta borrada 'Spring-Cloud-Config'">
       <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Config-Service/src/main/resources/config-service.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gateway-Service/src/main/resources/gateway-service.yml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/catalog-service-parcial/src/main/java/com/dh/catalogservice/api/service/ICatalogService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/catalog-service-parcial/src/main/java/com/dh/catalogservice/config/CustomLoadBalancerConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Config-Service/src/main/java/com/example/ConfigService/ConfigServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/Config-Service/src/main/java/com/example/ConfigService/ConfigServiceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Config-Service/src/main/resources/application.properties" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Config-Service/src/test/java/com/example/ConfigService/ConfigServiceApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/Config-Service/src/test/java/com/example/ConfigService/ConfigServiceApplicationTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Eureka-Service/src/main/java/com/example/EurekaService/EurekaServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/Eureka-Service/src/main/java/com/example/EurekaService/EurekaServiceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Eureka-Service/src/main/resources/application.properties" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Eureka-Service/src/test/java/com/example/EurekaService/EurekaServiceApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/Eureka-Service/src/test/java/com/example/EurekaService/EurekaServiceApplicationTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Gateway-Service/src/main/java/com/example/GatewayService/GatewayServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gateway-Service/src/main/java/com/example/GatewayService/GatewayServiceApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Gateway-Service/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/Gateway-Service/src/main/resources/bootstrap.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Gateway-Service/src/test/java/com/example/GatewayService/GatewayServiceApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gateway-Service/src/test/java/com/example/GatewayService/GatewayServiceApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-Cloud-Config/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-Cloud-Config/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/Eureka-Service/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-Cloud-Config/catalog-service-dev.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-Cloud-Config/gateway-service-dev.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-Cloud-Config/movie-service-dev.yml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/catalog-service-parcial/src/main/java/com/dh/catalogservice/CatalogServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/catalog-service-parcial/src/main/java/com/dh/catalogservice/CatalogServiceApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/catalog-service-parcial/src/main/java/com/dh/catalogservice/api/controller/CatalogController.java" beforeDir="false" afterPath="$PROJECT_DIR$/catalog-service-parcial/src/main/java/com/dh/catalogservice/api/controller/CatalogController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog-service-parcial/src/main/java/com/dh/catalogservice/api/service/CatalogService.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/catalog-service-parcial/src/main/java/com/dh/catalogservice/api/service/MovieFeignClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/catalog-service-parcial/src/main/java/com/dh/catalogservice/api/service/MovieFeignClient.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/catalog-service-parcial/src/main/java/com/dh/catalogservice/api/service/impl/CatalogServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/catalog-service-parcial/src/main/java/com/dh/catalogservice/api/service/impl/CatalogServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/catalog-service-parcial/src/main/java/com/dh/catalogservice/domain/model/dto/CatalogWS.java" beforeDir="false" afterPath="$PROJECT_DIR$/catalog-service-parcial/src/main/java/com/dh/catalogservice/domain/model/dto/CatalogWS.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/catalog-service-parcial/src/main/java/com/dh/catalogservice/domain/model/dto/MovieWS.java" beforeDir="false" afterPath="$PROJECT_DIR$/catalog-service-parcial/src/main/java/com/dh/catalogservice/domain/model/dto/MovieWS.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog-service-parcial/src/main/resources/application.yml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/catalog-service-parcial/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/catalog-service-parcial/src/main/resources/bootstrap.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/movie-service-parcial/src/main/java/com/dh/movieservice/MovieServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/movie-service-parcial/src/main/java/com/dh/movieservice/MovieServiceApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/movie-service-parcial/src/main/java/com/dh/movieservice/api/controller/MovieController.java" beforeDir="false" afterPath="$PROJECT_DIR$/movie-service-parcial/src/main/java/com/dh/movieservice/api/controller/MovieController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/movie-service-parcial/src/main/java/com/dh/movieservice/api/service/impl/MovieServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/movie-service-parcial/src/main/java/com/dh/movieservice/api/service/impl/MovieServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/movie-service-parcial/src/main/java/com/dh/movieservice/domain/model/Movie.java" beforeDir="false" afterPath="$PROJECT_DIR$/movie-service-parcial/src/main/java/com/dh/movieservice/domain/model/Movie.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie-service-parcial/src/main/resources/application.yml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/movie-service-parcial/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/movie-service-parcial/src/main/resources/bootstrap.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -143,7 +127,35 @@
       <option name="project" value="LOCAL" />
       <updated>1661838084147</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary=".">
+      <created>1661838157005</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1661838157005</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Archivos Borrados">
+      <created>1661838302529</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1661838302529</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Archivos Borrados">
+      <created>1661838457974</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1661838457974</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Reemplazan a los archivos borrados de la carpeta borrada 'Spring-Cloud-Config'">
+      <created>1661838562495</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1661838562495</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -158,9 +170,11 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="." />
     <MESSAGE value="Faltaba agregar los yaml" />
     <MESSAGE value="Rehice de cero los 'pom.xml' con spring initializr." />
-    <option name="LAST_COMMIT_MESSAGE" value="Rehice de cero los 'pom.xml' con spring initializr." />
+    <MESSAGE value="." />
+    <MESSAGE value="Archivos Borrados" />
+    <MESSAGE value="Reemplazan a los archivos borrados de la carpeta borrada 'Spring-Cloud-Config'" />
+    <option name="LAST_COMMIT_MESSAGE" value="Reemplazan a los archivos borrados de la carpeta borrada 'Spring-Cloud-Config'" />
   </component>
 </project>
