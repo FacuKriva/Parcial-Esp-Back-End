@@ -1,5 +1,6 @@
 server:
-  port: 8084
+  port: 8086
+
 spring:
   application:
     name: movie-service

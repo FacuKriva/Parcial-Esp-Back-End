@@ -6,3 +6,4 @@ INSERT INTO movies(name, genre, url_stream) VALUES('Kung-fu Panda', 'Comedy', 'h
 INSERT INTO movies(name, genre, url_stream) VALUES('Pacific Rim', 'Action', 'https://www.netflix.com/title/70267241');
 INSERT INTO movies(name, genre, url_stream) VALUES('The Old Guard', 'Action', 'https://www.netflix.com/title/81038963');
 INSERT INTO movies(name, genre, url_stream) VALUES('Pride & Prejudice', 'Romance', 'https://www.netflix.com/title/70032594');
+INSERT INTO movies(name, genre, url_stream) VALUES('Die Hard', 'Action', 'https://www.netflix.com/title/DH');
