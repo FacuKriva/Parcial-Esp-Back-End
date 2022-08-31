@@ -4,8 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d9b114b6-aed1-4f4d-bf31-ebf20574aab8" name="Changes" comment="Retoques">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    <list default="true" id="d9b114b6-aed1-4f4d-bf31-ebf20574aab8" name="Changes" comment="Se completa el README.md">
+      <change afterPath="$PROJECT_DIR$/Config-Service/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Eureka-Service/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Config-Service/src/main/resources/config-service.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eureka-Service/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gateway-Service/src/main/resources/gateway-service.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog-service-parcial/src/main/java/com/dh/catalogservice/api/controller/CatalogController.java" beforeDir="false" afterPath="$PROJECT_DIR$/catalog-service-parcial/src/main/java/com/dh/catalogservice/api/controller/CatalogController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog-service-parcial/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/catalog-service-parcial/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie-service-parcial/src/main/java/com/dh/movieservice/api/controller/MovieController.java" beforeDir="false" afterPath="$PROJECT_DIR$/movie-service-parcial/src/main/java/com/dh/movieservice/api/controller/MovieController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie-service-parcial/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/movie-service-parcial/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie-service-parcial/src/main/resources/movie-service.sql" beforeDir="false" afterPath="$PROJECT_DIR$/movie-service-parcial/src/main/resources/movie-service.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +34,13 @@
   </component>
   <component name="GithubDefaultAccount">
     <option name="defaultAccountId" value="0acef4c1-61d4-4ec2-9202-e627811820b4" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Config-Service/src/main/java/com/example/ConfigService/ConfigServiceApplication.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Eureka-Service/src/main/java/com/example/EurekaService/EurekaServiceApplication.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Gateway-Service/src/main/java/com/example/GatewayService/GatewayServiceApplication.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/catalog-service-parcial/src/main/java/com/dh/catalogservice/CatalogServiceApplication.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/movie-service-parcial/src/main/java/com/dh/movieservice/MovieServiceApplication.java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="JpbToolWindowState">
     <option name="myId2FirstActivated">
@@ -51,6 +68,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "JavaMethodFindUsagesOptions.isOverridingMethods": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -67,6 +85,42 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\nevad\Documents\CTD\Segundo-Track\PB\EBE\Clase12S\Krivanek, Facundo-C1-Primer-Parcial\Eureka-Service\src\main\resources" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="ConfigServiceApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Config-Service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.ConfigService.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.ConfigService" />
+      <option name="MAIN_CLASS_NAME" value="com.example.ConfigService.ConfigServiceApplicationTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="wholeProject" />
+      </option>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Whole project" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="wholeProject" />
+      </option>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.ConfigServiceApplicationTests" />
+        <item itemvalue="JUnit.Whole project" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -182,8 +236,25 @@
       <option name="project" value="LOCAL" />
       <updated>1661839519215</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Se completa el README.md">
+      <created>1661839983935</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1661839983935</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ID_ORDER">
+      <list>
+        <option value="Default.Root" />
+        <option value="Default.Author" />
+        <option value="Default.Date" />
+        <option value="Default.Subject" />
+      </list>
+    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -207,6 +278,7 @@
     <MESSAGE value="Se completan los model DTO's y se agrega la interfaz de 'ICatalogService.java'" />
     <MESSAGE value="Se agrega el LoadBalancer" />
     <MESSAGE value="Retoques" />
-    <option name="LAST_COMMIT_MESSAGE" value="Retoques" />
+    <MESSAGE value="Se completa el README.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="Se completa el README.md" />
   </component>
 </project>
